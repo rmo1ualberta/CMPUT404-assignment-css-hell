@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Copyright 2022 Raymond Mo
+
+        Permission is hereby granted, free of charge, to any person obtaining a copy of
+        this software and associated documentation files (the "Software"), to deal in 
+        the Software without restriction, including without limitation the rights to 
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies 
+        of the Software, and to permit persons to whom the Software is furnished to do 
+        so, subject to the following conditions:
+
+        The above copyright notice and this permission notice shall be included in all 
+        copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+        INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+        PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+        HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+        CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+        OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+        <title>Raymond's Webpage</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./good.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="Hello">Hello World!</h1>
+        </div>
+        <nav class="navbar">
+            <a id="who-l" href="#who" class="header-link">
+                <img id="navIcon"src="./res/icons/who.svg"/>
+            </a>
+            <a id="history-l" href="#history" class="header-link">
+                <img id="navIcon"src="./res/icons/history.svg"/>
+
+            </a>
+            <a id="skills-l" href="#skills" class="header-link">
+                <img id="navIcon"src="./res/icons/skills.svg"/>
+            </a>
+            <a id="about-l" href="#about" class="header-link">
+                <img id="navIcon"src="./res/icons/about.svg"/>
+            </a>
+        </nav>
+        <div class="contents-container">
+            <div id="who">
+                <div class="who-container">
+                    <div class="who-text">
+                        <h2>Who am I?</h2>
+                        <p>Hi! My name is Raymond Mo and I'm an undergraduate student at the University of Alberta, majoring in Computing Science with Specialization in X.
+                            I'm looking to get into full stack web dev / front-end dev / software engineering / UI/UX
+                            <br/><br/>I also freelance graphic design and have done graphics for Edmonton Stingers, UAlberta GBears Football, Edmonton Wildcats, Harry Ainlay Ahtletics Department,
+                            and a couple of logo designs here and there.</p>
+                    </div>
+                    <img src="./res/me.png"/>
+                </div>
+            </div>
+            <div id="history">
+                <div class="history-container">
+                    <h2 className="history-header">History</h2>
+                    &nbsp;
+                    <p>I have 5+ years of experience creating mainly sports graphics for a variety of clients. Some of my clients:</p>
+                    <ul>
+                        <li>Edmonton Stingers</li>
+                        <li>UAlberta Golden Bears Football</li>
+                        <li>Edmonton Wildcats</li>
+                        <li>Harry Ainlay Athletics</li>
+                        <li>Howlin Good Farms</li>
+                    </ul>
+                    <p>Additionally, I participated in Skills Alberta's Graphic Design competition, achieving 3rd place.</p>
+                    <div class="projects-container">
+                        <img id="box" src="./res/edmStingers.png"/>
+                        <img id="box" src="./res/HabitTrackerBanner.png"/>
+                        <img id="box" src="./res/gbears.png"/>
+                        <img id="box" src="./res/howlingood.png"/>
+                    </div>
+                </div>
+            </div>
+            <div id="skills">
+                <div class="skills-container">
+                    <h2 className="skills-header">Skills</h2>
+                    &nbsp;
+                    <div class="proficient">
+                        <p>I am proficient in:</p>
+                        <ul>
+                            <li>C/C++</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Android Studio</li>
+                            <li>Adobe suite</li>
+                        </ul>
+                    </div>
+                    <div class="familiar">
+                        <p>I am familiar with:</p>
+                        <ul>
+                            <li>SQLite</li>
+                            <li>MongoDB</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>React</li>
+                            <li>Django</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                    <p class="addition">In addition to these, I can effectively communicate with clients to achieve the perfect end product thanks to my experience in graphic design,
+                        as well as being able to work well in a time critical project as I experienced in the Skills Alberta competition.
+                    </p>
+                </div>
+            </div>
+            <div id="about">
+                <div class="about-container">
+                    <h2 className="about-header">About Me</h2>
+                    <aside>I have various other hobbies/interests</aside>
+                    <div class="vr">
+                        <p>I have interests in virtual reality (VR) and its application in various areas such as healthcare, business, and consumer entertainment (..gaming)</p>
+                    </div>
+                    <div class="keyboards">
+                        <p>Some how custom mechanical keyboards grabbed my attention... It’s probably due to my attraction to well designed products (design overall)
+                             and the aesthetics that comes with pairing such a thing with various other well designed products. As well, the tinkering aspect of
+                              building a keyboard is something I enjoy a lot as well. </p>
+                    </div>
+                    <div class="cooking">
+                        <p>I love watching food videos so naturally I came to like watching cooking videos as well, which then led me to enjoy cooking. It very much is a therapeutic
+                            experience and is a good excuse to get away from the screens. And as a result I get to eat good food :D
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+</html>
