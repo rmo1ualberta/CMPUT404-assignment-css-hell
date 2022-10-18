@@ -1,0 +1,132 @@
+body {
+    font-family: 'Fuzzy Bubbles';
+    background-color: black;
+}
+
+.header {
+    background: rgb(147,255,0);
+    background: radial-gradient(circle, rgba(147,255,0,1) 0%, rgba(28,0,255,1) 15%, rgba(233,255,0,1) 35%, rgba(36,255,0,1) 51%, rgba(255,109,0,1) 70%, rgba(234,0,255,1) 87%, rgba(255,0,0,1) 100%); 
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 155px;
+    color: red;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    /* background-color: teal; */
+    gap: 50px;
+    background-image: linear-gradient(45deg, rgb(198, 255, 119), rgba(255, 0, 0, 0.117));
+}
+
+#navIcon {
+    background-color: aqua;
+}
+
+.who-container {
+    display: flex;
+    color: yellow
+}
+
+.who-container h2 {
+    font-family: 'Comforter Brush';
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.who-container img {
+    width: 150px;
+    filter: contrast(200%) saturate(500%) invert(100%) hue-rotate(90deg) drop-shadow(16px 16px 20px blue);
+}
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    place-items: right;
+    text-align: right;
+    color: aquamarine;
+}
+
+.history-container h2 {
+    margin: 0;
+    font-family: 'Comforter Brush';
+    color: rgb(0, 255, 94);
+    font-size: 150px;
+    filter: drop-shadow(16px 16px blue)
+}
+
+.history-container img {
+    width: 500px;
+    filter:brightness(100%) saturate(500%);
+    border-radius: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--green);
+    border-radius: 9px;
+}
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+.img-container:hover .overlay {
+
+    opacity: 1;
+}
+  
+.text {
+    color: rgb(255, 0, 153);
+    text-shadow: 1px 1px 2px black;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: orange;
+}
+
+.skills-container h2 {
+    font-family: 'Comforter Brush';
+    color:bisque;
+    font-size: 200px;
+    background-color: cornflowerblue;
+    text-decoration: underline overline;
+}
+
+.about-container {
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/womanyellingcat-1573233850.jpg");
+    font-family: "Silkscreen";
+    color:rgb(0, 21, 255);
+    text-shadow: 2px 2px 5px white;
+}
+
+.about-container h2 {
+    font-size: 150px;
+    text-decoration-line: underline;
+    text-decoration-color: coral;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 15px;
+    color:rgb(123, 79, 145);
+}

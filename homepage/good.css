@@ -177,8 +177,39 @@ html {
 }
 
 .projects-container img {
-
     border-radius: 11px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--green);
+    border-radius: 9px;
+}
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+.img-container:hover .overlay {
+
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 #box {
@@ -250,6 +281,7 @@ html {
     padding-left: 2vh;
     border-radius: 11px;
     box-shadow: 0px 0px 5px 3px rgba(var(--darker-green), 0.1);
+    margin-bottom: 3vh;
 }
 
 .about-container {
@@ -257,5 +289,9 @@ html {
     flex-direction: column;
     height: fit-content;
     margin-left: 10vw;
+}
+
+.about-container p {
+    margin-left: 2vw;
 }
 
